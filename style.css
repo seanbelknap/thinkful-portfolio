@@ -1,0 +1,68 @@
+/* rest set all default margins */
+* {
+    margin: O;
+    padding: 0;
+}
+/* font and body margins */
+body {
+    min-width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(232,237,235);
+}
+
+h1, h3, h4{
+    color: rgb(232,237,235);
+}
+h2, p, li {
+    color: rgb(44,61,78);
+}
+/* header section */
+header {
+    min-width: 100%;
+    margin-top: -15px;
+    background-color: rgb(44,61,78);
+}
+
+/* main section  */
+main {
+    max-width: 500px;
+    margin: 0;
+}
+/* main body divs */
+.body-div {
+margin: 25px 0;
+}
+#profile-img{
+    border-radius: 50%;
+    width: 400px;
+}
+.about-me-list { 
+    text-align: left; 
+    margin-left: 37%;
+    margin-right: 25%;
+}
+/* all list items to move bullet points closer */
+li{
+    list-style-position: inside;
+}
+/* line color */
+hr {
+    border: solid rgb(225,157,81);
+}
+/* footer */
+footer{
+    min-width: 100%;
+    background-color: rgb(140,188,183);
+    margin-bottom: -15px;
+}
+
+
+   
