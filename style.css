@@ -24,10 +24,12 @@ h1, h3, h4{
 h2, p, li {
     color: rgb(44,61,78);
 }
+p , li {
+    font-size: 18px;
+}
 /* header section */
 header {
     min-width: 100%;
-    margin-top: -15px;
     background-color: rgb(44,61,78);
 }
 
@@ -63,6 +65,21 @@ footer{
     background-color: rgb(140,188,183);
     margin-bottom: -15px;
 }
-
+/* unvisited */
+a:link{
+   color: rgb(44,61,78);
+}
+/* visited */
+a:visited{
+    color:  rgb(140,188,183);
+}
+/* hover */
+a:hover{
+    font-size: 20px;
+}
+/* selected */
+a:active{
+    color: rgb(225,157,81);
+}
 
    
